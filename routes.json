@@ -1,0 +1,7 @@
+{
+  "/api/*": "/$1",
+  "/liquidityparameters/codes": "/parameterCodes",
+  "/liquidityparameters/parameters": "/parameters",
+  "/liquidityparameters/types": "/parameterTypes",
+  "/liquidityparameters/filter": "/liquidityparameters"
+}

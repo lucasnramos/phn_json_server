@@ -1,0 +1,104 @@
+{
+  "api": {
+    "liquidityparameters": {
+      "types": [
+        "Numerico",
+        "Dias úteis",
+        "Dias corridos"
+      ],
+      "filter": [
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": false,
+          "cvm": false,
+          "internal": true,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": false,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Desenquadrado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": true,
+          "cvm": true,
+          "internal": false,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": false,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Desenquadrado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": true,
+          "cvm": false,
+          "internal": false,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": false,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Desenquadrado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": true,
+          "cvm": true,
+          "internal": true,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": false,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Desenquadrado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": false,
+          "cvm": false,
+          "internal": false,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": true,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Desenquadrado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": true,
+          "cvm": true,
+          "internal": true,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": true,
+          "corrected": true,
+          "releasedDate": "2020-12-1",
+          "status": "Validado"
+        },
+        {
+          "cidSec": "XPTrend 38",
+          "manager": "XP Vista Asset",
+          "shortfall": false,
+          "cvm": false,
+          "internal": false,
+          "mattressLimit": "75.177.543,37",
+          "liquidityMattress": "23.222.987,77",
+          "attention": false,
+          "corrected": false,
+          "releasedDate": "2020-12-1",
+          "status": "Reprocessado"
+        }
+      ]
+    }
+  }
+}
