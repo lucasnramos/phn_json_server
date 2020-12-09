@@ -3,5 +3,9 @@
   "/liquidityparameters/codes": "/parameterCodes",
   "/liquidityparameters/parameters": "/parameters",
   "/liquidityparameters/types": "/parameterTypes",
-  "/liquidityparameters/filter": "/liquidityparameters"
+  "/liquidityparameters/filter": "/liquidityparameters",
+  "/liquidityparameters/list": "/liquidityparameters",
+
+  "/liquiditycalculation/filter": "/liquiditycalculation",
+  "/liquiditycalculation/list": "/liquiditycalculation"
 }

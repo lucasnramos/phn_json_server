@@ -21,6 +21,21 @@
       "corrected": false,
       "releasedDate": "2020-12-1",
       "status": "Desenquadrado"
+    }
+  ],
+  "liquiditycalculation": [
+    {
+      "cidSec": "XPTrend 38",
+      "manager": "XP Vista Asset",
+      "shortfall": false,
+      "cvm": false,
+      "internal": true,
+      "mattressLimit": "75.177.543,37",
+      "liquidityMattress": "23.222.987,77",
+      "attention": false,
+      "corrected": false,
+      "releasedDate": "2020-12-1",
+      "status": "Desenquadrado"
     },
     {
       "cidSec": "XPTrend 38",
