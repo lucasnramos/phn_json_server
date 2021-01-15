@@ -1,119 +1,92 @@
 {
-  "parameterCodes": {
-    "data": ["DtCalcLiq"]
-  },
-  "parameterTypes": {
-    "data": ["Numerico", "Dias úteis", "Dias corridos"]
-  },
-  "parameters": {
-    "data": ["Data de Cálculo de Liquidez"]
-  },
+  "parameterCodes": ["DtCalcLiq"],
+  "parameterTypes": ["Numerico", "Dias úteis", "Dias corridos"],
+  "parameters": ["Data de Cálculo de Liquidez"],
   "liquidityparameters": [
     {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": false,
-      "cvm": false,
-      "internal": true,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
+      "id": 1,
+      "parameterCode": "DtCalcLiq",
+      "parameterDescription": "Calculo da data de liquidez",
+      "parameterValue": "-1",
+      "parameterUnit": "DiasUteis",
+      "initialValidity": "2020-12-1",
+      "finalValidity": null
+    },
+    {
+      "id": 2,
+      "parameterCode": "DtCalcLiq",
+      "parameterDescription": "Calculo da data de liquidez",
+      "parameterValue": "-1",
+      "parameterUnit": "DiasUteis",
+      "initialValidity": "2020-12-1",
+      "finalValidity": null
     }
   ],
   "liquiditycalculation": [
     {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": false,
+      "blocked": "8%",
+      "charges": "5%",
+      "corrected": false,
+      "cnpj": "91.533.024/0001-61",
       "cvm": false,
+      "cvmFlag": true,
+      "cvmLimit": "99%",
+      "cvmType": "xxxxx",
+      "errors": ["CVM", "SHORTFALL"],
+      "fund": "XPTrend 38",
       "internal": true,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
-    },
-    {
-      "cidSec": "XPTrend 38",
+      "liquidAssetsValue": "2.222.987,77",
+      "liquidityMattress": "99%",
+      "liquidityLimit": "34%",
       "manager": "XP Vista Asset",
-      "shortfall": true,
-      "cvm": true,
-      "internal": false,
+      "mattress": "99%",
       "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
-    },
-    {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": true,
-      "cvm": false,
-      "internal": false,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
-    },
-    {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": true,
-      "cvm": true,
-      "internal": true,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
-    },
-    {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": false,
-      "cvm": false,
-      "internal": false,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": true,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Desenquadrado"
-    },
-    {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": true,
-      "cvm": true,
-      "internal": true,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": true,
-      "corrected": true,
-      "releasedDate": "2020-12-1",
-      "status": "Validado"
-    },
-    {
-      "cidSec": "XPTrend 38",
-      "manager": "XP Vista Asset",
-      "shortfall": false,
-      "cvm": false,
-      "internal": false,
-      "mattressLimit": "75.177.543,37",
-      "liquidityMattress": "23.222.987,77",
-      "attention": false,
-      "corrected": false,
-      "releasedDate": "2020-12-1",
-      "status": "Reprocessado"
+      "numShareholders": "1500",
+      "redemption": "65%",
+      "redemptionRule": "15 dias",
+      "restriction": "NaoHaRestricao",
+      "releasedDate": "1/12/2020",
+      "shortfallFlag": true,
+      "shortfallLimit": false,
+
+      "analysisDate": "2020-12-12",
+      "cvmLiability": "99%",
+      "difference": "XXXXXXX",
+      "liquidAssets": "99%",
+      "status": "Desenquadrado",
+
+      "shareholders": [
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        }
+      ]
     }
   ]
 }
