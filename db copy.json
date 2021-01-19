@@ -1,0 +1,92 @@
+{
+  "parameterCodes": ["DtCalcLiq"],
+  "parameterTypes": ["Numerico", "Dias úteis", "Dias corridos"],
+  "parameters": ["Data de Cálculo de Liquidez"],
+  "liquidityparameters": [
+    {
+      "id": 1,
+      "parameterCode": "DtCalcLiq",
+      "parameterDescription": "Calculo da data de liquidez",
+      "parameterValue": "-1",
+      "parameterUnit": "DiasUteis",
+      "initialValidity": "2020-12-1",
+      "finalValidity": null
+    },
+    {
+      "id": 2,
+      "parameterCode": "DtCalcLiq",
+      "parameterDescription": "Calculo da data de liquidez",
+      "parameterValue": "-1",
+      "parameterUnit": "DiasUteis",
+      "initialValidity": "2020-12-1",
+      "finalValidity": null
+    }
+  ],
+  "liquiditycalculation": [
+    {
+      "blocked": "8%",
+      "charges": "5%",
+      "corrected": false,
+      "cnpj": "91.533.024/0001-61",
+      "cvm": false,
+      "cvmFlag": true,
+      "cvmLimit": "99%",
+      "cvmType": "xxxxx",
+      "errors": ["CVM", "SHORTFALL"],
+      "fund": "XPTrend 38",
+      "internal": true,
+      "liquidAssetsValue": "2.222.987,77",
+      "liquidityMattress": "99%",
+      "liquidityLimit": "34%",
+      "manager": "XP Vista Asset",
+      "mattress": "99%",
+      "mattressLimit": "75.177.543,37",
+      "numShareholders": "1500",
+      "redemption": "65%",
+      "redemptionRule": "15 dias",
+      "restriction": "NaoHaRestricao",
+      "releasedDate": "1/12/2020",
+      "shortfallFlag": true,
+      "shortfallLimit": false,
+
+      "analysisDate": "2020-12-12",
+      "cvmLiability": "99%",
+      "difference": "XXXXXXX",
+      "liquidAssets": "99%",
+      "status": "Desenquadrado",
+
+      "shareholders": [
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        },
+        {
+          "cnpj": "91.533.024/0001-61",
+          "name": "XPTO INVESTOR",
+          "type": "FUNDO DE FUNDOS"
+        }
+      ]
+    }
+  ]
+}
